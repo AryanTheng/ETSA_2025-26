@@ -91,7 +91,7 @@ Replace <your-username> and <repo-name> with your actual GitHub username and the
 
 ### ⚙️ Step 2: Run the Verification Script
 
-Add your name in third line of `check-setup.js`
+Add your name in third line of `check-setup.js`.
 This script will generate a <your_name>_setup-status.txt file with your system information.
 ```bash
 node check-setup.js
