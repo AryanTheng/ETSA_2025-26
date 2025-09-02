@@ -59,7 +59,7 @@ Every web application has two main parts:
 
 ## 🔗 Link Git with GitHub
 
-Folow `git-setup.md`[git-setup.md](./git-setup.md)  file for linking git with GitHub.
+### Follow `git-setup.md`[git-setup.md](./git-setup.md)  file for linking git with GitHub.
 ---
 
 ## 🧪 Verify Installation (Node, Git, npm)
