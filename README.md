@@ -41,12 +41,12 @@ Every web application has two main parts:
 ---
 
 ### ✅ 2. Node.js (includes npm – Node Package Manager)
-- Install it yourself or follow instructions in the `nodeinstall.md` file in this repo.
+- Install it yourself or follow instructions in the `nodeinstall.md`[nodeinstall.md](./nodeinstall.md) file in this repo.
 
 ---
 
 ### ✅ 3. Git (Version Control System)
-- Install it yourself or follow instructions in the `gitinstall.md` file in this repo.
+- Install it yourself or follow instructions in the `gitinstall.md`[gitinstall.md](./gitinstall.md) file in this repo.
 
 ---
 
@@ -58,7 +58,7 @@ Every web application has two main parts:
 ---
 
 ## 🔗 Link Git with GitHub
-Folow git-setup.md file for linking git with GitHub.
+Folow `git-setup.md`[git-setup.md](./git-setup.md)  file for linking git with GitHub.
 Open a terminal and run the following commands:
 
 ```bash
