@@ -47,6 +47,7 @@ winget install --id GitHub.cli
 ```bash
 gh auth login
 ```
+use HTTPS protocol if asked.
 # 6. Verify configuration
 ```bash
 git config --global --list
