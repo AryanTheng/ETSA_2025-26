@@ -77,7 +77,7 @@ Now that you've installed Node.js, Git, and configured GitHub, let's verify your
 
 ---
 
-📁 Step 1: Fork and Clone the Repository
+### 📁 Step 1: Fork and Clone the Repository
 
 If you're unsure how to fork and clone, search for a tutorial on YouTube.
 Once ready, run the following in your terminal:
@@ -87,7 +87,9 @@ cd <repo-name>/task0
 ```
 Replace <your-username> and <repo-name> with your actual GitHub username and the repository name.
 
-⚙️ Step 2: Run the Verification Script
+---
+
+### ⚙️ Step 2: Run the Verification Script
 
 This script will generate a setup-status.txt file with your system information.
 ```bash
@@ -98,14 +100,17 @@ node check-setup.js
 output/aryan_theng_setup-status.txt
 ```
 
-🔄 Step 3: Commit and Push Your Results
+---
+
+### 🔄 Step 3: Commit and Push Your Results
 ```bash
 git add .
 git commit -m "02-09-2025: Aryan Theng (This is just a commit msg — write anything you like)"
 git push
 ```
+---
 
-📤 Step 4: Create a Pull Request (PR)
+### 📤 Step 4: Create a Pull Request (PR)
 
 - Go to your forked repository on GitHub
 - Click "Contribute" → "Open pull request"
@@ -114,12 +119,15 @@ git push
 
 🕐 Once submitted, wait or DM me to get it reviewed and merged faster.
 
-✅ Step 5: Final Check
+---
+
+### ✅ Step 5: Final Check
 
 After your PR is merged, your file should appear in the /output folder on the main repository.
 
-🎉 You Did It!
+## 🎉 You Did It!
 ```bash
 🎉 Congrats! You have successfully completed your environment setup.
 🚀 You are no longer a beginner — welcome to real-world development!
 ```
+---
