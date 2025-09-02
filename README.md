@@ -1,5 +1,3 @@
-# ETSA_2025-26
-
 # 🚀 Task 0: Installing Necessary Tools for MERN Stack Development
 
 Welcome to the first step of your MERN stack journey!
@@ -37,62 +35,91 @@ Every web application has two main parts:
 
 ## 🛠 Tools You Need to Install
 
+### ✅ 1. Visual Studio Code (VS Code)
+> Hope you already have it. If not, download it from [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
 ---
-### ✅ 1. VScode (Hope you have it.)
+
 ### ✅ 2. Node.js (includes npm – Node Package Manager)
-Install yourself or follow nodeinstall.md file
-### ✅ 3. git (version control software -> helps managing your code)
-Install yourseld or follow gitinstall.md file
-### ✅ 4. Go make a github account( You are a Devloper from Nov onwards)
+- Install it yourself or follow instructions in the `nodeinstall.md` file in this repo.
 
+---
 
-## Link Git with GitHub
-open a terminal and add your github details
+### ✅ 3. Git (Version Control System)
+- Install it yourself or follow instructions in the `gitinstall.md` file in this repo.
+
+---
+
+### ✅ 4. Create a GitHub Account
+- Go to [https://github.com/](https://github.com/) and create a free account.
+- You’ll need this to push code and collaborate.
+> 💡 You're officially a developer from this point on!
+
+---
+
+## 🔗 Link Git with GitHub
+
+Open a terminal and run the following commands:
+
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
+```
+---
 
-
-##🧪Verify Installation (Node, Git, npm)
+## 🧪 Verify Installation (Node, Git, npm)
 
 Now that you've installed Node.js, Git, and configured GitHub, let's verify your setup by running a script that checks and logs the versions.
 
 ---
 
-## ✅ Instructions
+### ✅ Instructions
 
-### Step 1:Fork and Clone the Repository(Follow an yt video if you don't understand forking and cloning repository)
+---
 
-In your terminal, navigate to where you want to store the project folder, then run:
+📁 Step 1: Fork and Clone the Repository
 
+If you're unsure how to fork and clone, search for a tutorial on YouTube.
+Once ready, run the following in your terminal:
 ```bash
-git clone https://github.com/<your-org-or-username>/<repo-name>.git
+git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>/task0
+```
+Replace <your-username> and <repo-name> with your actual GitHub username and the repository name.
 
-### Step 2:Run the Verification Script
+⚙️ Step 2: Run the Verification Script
+
+This script will generate a setup-status.txt file with your system information.
 ```bash
 node check-setup.js
+```
+✅ It will create a file inside the /output folder like:
+```bash
+output/aryan_theng_setup-status.txt
+```
 
-output: it will create a file name setup-status.txt
-
-### Step 3:Commit and Push Your Results(you can always use yt and GPT)
+🔄 Step 3: Commit and Push Your Results
 ```bash
 git add .
-git commit -m "02-09-2025: Aryan Theng(This is just a commit msg you can write anything)"
+git commit -m "02-09-2025: Aryan Theng (This is just a commit msg — write anything you like)"
 git push
+```
 
-### Step 4:Create a PR(Pull request from GitHub)
-Go to the repo on github and make a pull request(PR) and wait until it get merged.
-If you have made a PR you can DM me to get it merged quickly.
+📤 Step 4: Create a Pull Request (PR)
 
-### Step 5:Now, if you see a file of your name in output folder on this link().
+- Go to your forked repository on GitHub
+- Click "Contribute" → "Open pull request"
+- Add a title and description
+- Submit the PR
+
+🕐 Once submitted, wait or DM me to get it reviewed and merged faster.
+
+✅ Step 5: Final Check
+
+After your PR is merged, your file should appear in the /output folder on the main repository.
+
+🎉 You Did It!
+```bash
 🎉 Congrats! You have successfully completed your environment setup.
 🚀 You are no longer a beginner — welcome to real-world development!
-
-
-
-
-
-
-
-
+```
