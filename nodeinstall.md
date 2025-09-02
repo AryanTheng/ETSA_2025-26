@@ -12,7 +12,9 @@ Step2: Run .msi file.
 ```bash
 node -v
 npm -v
-
+```
 It should Output something similar to:
+```bash
 Node version: v22.19.0
 npm version: 9.6.7
+```
