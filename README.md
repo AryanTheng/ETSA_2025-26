@@ -59,12 +59,6 @@ Every web application has two main parts:
 
 ## 🔗 Link Git with GitHub
 Folow `git-setup.md`[git-setup.md](./git-setup.md)  file for linking git with GitHub.
-Open a terminal and run the following commands:
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
 ---
 
 ## 🧪 Verify Installation (Node, Git, npm)
