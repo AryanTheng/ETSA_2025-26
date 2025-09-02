@@ -1,14 +1,8 @@
-# 🔗 Git & GitHub Setup Guide
+# -----------------------------
+# 🔗 Git & GitHub One-Time Setup
+# -----------------------------
 
-This guide will set up Git and connect it with your GitHub account.  
-It’s a **one-time setup per machine**.
-
----
-
-## ⚡ Quick Setup (Copy-Paste in Bash)
-
-
-# 1. Set your Git identity (use same email as GitHub)
+# 1. Set your Git identity (use the same email as GitHub)
 ```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your.email@example.com"
@@ -18,6 +12,8 @@ git config --global user.email "your.email@example.com"
 git config --global init.defaultBranch main
 ```
 # 3. Enable credential caching
+# (Run the line that matches your OS)
+
 # Windows
 ```bash
 git config --global credential.helper manager-core
@@ -26,15 +22,32 @@ git config --global credential.helper manager-core
 ```bash
 git config --global credential.helper osxkeychain
 ```
-# Linux (temporary cache)
+# Linux (temporary cache in memory)
 ```bash
 git config --global credential.helper cache
 ```
-# Linux (permanent, plain text - careful)
+# Linux (permanent storage, plain text - use carefully)
 ```bash
 git config --global credential.helper store
 ```
-# 4. Verify configuration
+# 4. Install GitHub CLI (choose based on your OS)
+# Linux (Debian/Ubuntu)
+```bash
+sudo apt install gh -y
+```
+# macOS (Homebrew)
+```bash
+brew install gh
+```
+# Windows (Winget)
+```bash
+winget install --id GitHub.cli
+```
+# 5. Authenticate Git with GitHub
+```bash
+gh auth login
+```
+# 6. Verify configuration
 ```bash
 git config --global --list
 ```
