@@ -27,7 +27,9 @@ After installation, open a terminal (Command Prompt, Git Bash, or Terminal) and 
 
 ```bash
 git --version
-
+```
 It should output something like:
+```bash
 git version 2.42.0
+```
 
