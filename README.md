@@ -58,7 +58,7 @@ Every web application has two main parts:
 ---
 
 ## 🔗 Link Git with GitHub
-
+Folow git-setup.md file for linking git with GitHub.
 Open a terminal and run the following commands:
 
 ```bash
