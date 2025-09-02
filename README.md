@@ -123,7 +123,7 @@ git push
 
 ### ✅ Step 5: Final Check
 
-After your PR is merged, your file should appear in the /output folder on the main repository.
+After your PR is merged, your file should appear in the `Task0/output`[Task0/output](./Task0/output) folder on the main repository.
 
 ## 🎉 You Did It!
 ```bash
