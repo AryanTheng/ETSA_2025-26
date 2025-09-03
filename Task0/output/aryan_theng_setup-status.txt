@@ -1,10 +1,10 @@
 
 ✅ Setup Status Report for Aryan Theng
 
-Node.js version: v22.19.0
-npm version:     10.9.3
-Git version:     git version 2.34.1
-Git Username:    Aryan Theng
-Git Email:       aryantheng5@gmail.com
+Node.js version: v24.4.1
+npm version:     11.4.2
+Git version:     git version 2.46.2.windows.1
+Git Username:    Venom-dell
+Git Email:       vishwajeet.7922@gmail.com
 
 ✔️ All tools installed correctly if values above are filled.
