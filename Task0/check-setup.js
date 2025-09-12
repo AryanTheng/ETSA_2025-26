@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 👤 Your name here (used for output file)
-const name = "Vishwajeet Gole";
+const name = "Prathamesh Girhe";
 
 // 📁 Create output directory if it doesn't exist
 const outputDir = path.join(__dirname, 'output');
